@@ -1,0 +1,131 @@
+# 🚀 Azure Cloud & Windows Server Administration Syllabus
+
+_A comprehensive roadmap for mastering cloud infrastructure, networking, security, and hybrid server environments._
+
+---
+
+## 🌩️ Module 1: Azure Cloud Administration  
+_Covers AZ-900, AZ-104, and AZ-700 fundamentals and advanced topics._
+
+### 🔹 Tier 1: Cloud Fundamentals & Azure Adoption
+- Why organizations are shifting from on-premises to cloud
+- What is Cloud Computing?
+- Benefits of Cloud Computing
+- Cloud Service Models: IaaS, PaaS, SaaS
+- Cloud Deployment Models: Public, Private, Hybrid
+- Why Azure is preferred over other public clouds
+
+### 🔹 Tier 2: Azure Account & Subscription Management
+- Azure account creation & portal walkthrough
+- Subscription types: Free Trial, Pay-as-you-Go, Enterprise
+- Subscription acquisition: Direct Microsoft, Resellers
+- Azure cost management: Budgets, Invoices, Payments
+- Resource Groups & Resources
+- Azure Cloud Shell & PowerShell basics
+
+### 🔹 Tier 3: Virtual Machines & Compute Services
+- VM series, types, and creation via Portal & PowerShell
+- Windows & Linux VM deployment and access
+- Disk types: OS, Temporary, Data
+- VM resizing, extensions, and encryption (ADE, CMK, PMK)
+- Serial Console usage
+- Azure Bastion, Availability Sets & Zones
+- VM Scale Sets & Image types (Specialized/Generalized)
+
+### 🔹 Tier 4: Azure Networking Essentials
+- Virtual Network (VNet) & Subnet creation
+- Public IP & Secondary NIC attachment
+- VNet Peering: Regional, Global, Gateway Transit
+- Network Security Groups (NSG)
+- User Defined Routes (UDR) & Route Tables
+
+### 🔹 Tier 5: VPN & Hybrid Connectivity
+- VPN types: Point-to-Site (P2S), Site-to-Site (S2S), ExpressRoute
+- VPN Gateway & High Availability
+- Local Network Gateway
+- Hub & Spoke architecture
+- ExpressRoute Circuit setup
+- Azure Virtual WAN
+
+### 🔹 Tier 6: Load Balancing & Traffic Management
+- Azure Load Balancer: Internal & Public
+- Application Gateway: Detection & Prevention Modes
+- URL Rewrite & Path-based Routing
+- Azure Traffic Manager
+- Content Delivery Network (CDN)
+- Azure Firewall: Application Rules
+
+### 🔹 Tier 7: Azure App Services
+- App Service Plans & SKUs
+- Deployment Slots & Multi-page Web Deployment
+- Azure Firewall integration
+
+### 🔹 Tier 8: Azure Storage Services
+- Storage Account types: GPv1, GPv2, Premium
+- Storage types: Blob, File, Table, Queue
+- Authorization: SAS, Access Keys, Stored Policies
+- Storage Explorer & Account Tiers: Hot, Cool, Archive
+- Azure File Share & Sync
+- Lifecycle Policies & Object Replication
+- Data Migration from On-Prem to Azure
+- Private & Public Endpoints
+
+### 🔹 Tier 9: Backup & Disaster Recovery
+- VM & Workload Backups
+- On-Prem to Azure Backup: MARS, MABS
+- Azure Site Recovery (ASR)
+- Snapshots: VM & Disk
+- File Share Backup
+
+### 🔹 Tier 10: Identity & Access Management
+- Users, Groups, Tenants
+- Azure AD & Subscription Trust
+- Role-Based Access Control (RBAC)
+- AD Licensing & Dynamic Groups
+- Roles, Permissions, SSPR
+- Bulk User Creation
+- Conditional Access Policies
+- Resource Movement & Locks
+- PowerShell Integration with Azure
+
+### 🔹 Tier 11: Monitoring & Insights
+- Azure Monitor & Log Analytics Workspace
+- VM Workspace Connection
+- KQL Queries & Alerts
+- Application Insights
+- Third-party Monitoring Tools
+
+---
+
+## 🖥️ Module 2: Windows Server Administration  
+_Hands-on management of enterprise-grade Windows Server environments._
+
+### 🔹 Active Directory & Domain Services
+- Domain Controller setup
+- AD Objects: Users, Groups, Computers, OUs
+- Group Policies (GPO)
+- ADC, CDC, RODC configurations
+- AD Recycle Bin
+
+### 🔹 Server Roles & Services
+- IIS Administration
+- Windows Deployment Services (WDS)
+- Windows Server Update Services (WSUS)
+- AD Lightweight Directory Services (ADLDS)
+- AD Certificate Services (ADCS)
+- AD Federation Services (ADFS)
+
+### 🔹 Core Infrastructure Services
+- DHCP Server Administration
+- DNS Server Administration
+- Print Server Management
+- Backup & Restore: DSRM, Authoritative & Non-Authoritative
+
+### 🔹 Hybrid Identity Integration
+- Azure AD Connect Tool
+- Syncing On-Prem ADDS with Azure AD
+
+---
+
+📌 _Designed for IT professionals, cloud engineers, and DevOps enthusiasts aiming to master Azure and Windows Server administration._
+
